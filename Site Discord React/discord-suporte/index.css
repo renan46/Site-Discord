@@ -1,0 +1,230 @@
+body {
+    display: flex;
+    background-color: #fff;
+    color: black;
+    font-family: "gg_sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.img-fundo {
+    justify-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 100px;
+    width: 100%;
+    float: right;
+    position: relative;
+}
+
+.txt-fundo {
+    width: 100%;
+    height: 40%;
+    padding-top: 200px;
+    position: absolute;
+    text-align: center;
+}
+
+.txt-fundo>h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.menu-superior {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.menu-botao {
+    display: flex;
+    direction: rtl;
+    flex-flow: row;
+    padding: 5px;
+    margin-left: 300px;
+}
+
+.img-ms {
+    display: flex;
+    flex-flow: row;
+    direction: ltr;
+    width: 20%;
+}
+
+.ms1 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.ms2 {
+    padding-right: 20;
+    padding-left: 20px;
+}
+
+.ms3 {
+    padding-right: 20;
+    padding-left: 20px;
+}
+
+.ms4 {
+    padding-right: 20;
+    padding-left: 20px;
+}
+
+div {
+    display: block;
+}
+
+.Grid-1 {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    width: 100%;
+}
+
+.Grid-2 {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    padding: 0px;
+    margin-top: 0px;
+    justify-content: center;
+    width: 100%;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.rodape {
+    display: flexbox;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 100px;
+    background-color: black;
+}
+
+.menu-rodape {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+}
+
+.menu-rodape1 {
+    display: flex;
+    flex-flow: column;
+    text-align-last: left;
+    margin: 20px;
+    padding-right: 50px;
+}
+
+.menu-rodape2 {
+    display: flex;
+    flex-flow: column;
+    text-align-last: left;
+    margin: 20px;
+    padding-right: 50px;
+}
+
+.menu-rodape3 {
+    display: flex;
+    flex-flow: column;
+    text-align-last: left;
+    margin: 20px;
+    padding-right: 50px;
+}
+
+.menu-rodape4 {
+    display: flex;
+    flex-flow: column;
+    direction: ltr;
+    width: 20%;
+    margin: 20px;
+    padding-right: 50px;
+}
+
+.menu-rodape1>a>h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.menu-rodape2>a>h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.menu-rodape3>a>h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.img-rodape {
+    align-items: center;
+    width: 100%;
+}
+
+.botao {
+    translate: translateZ(0);
+    background-color: #3BA55C;
+    text-transform: uppercase;
+    white-space: nowrap;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 600;
+    overflow: hidden;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    margin: 50px 0;
+    width: 300px;
+    height: 55px;
+}
+
+.botaoAjuda {
+    border: 3px solid #fff;
+    background-color: #2d93aa;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    margin: 50px 0;
+    width: 150px;
+    height: 55px;
+    direction: rtl;
+}
+
+* {
+    text-decoration: none;
+    text-align: center;
+    font-family: "gg_sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}

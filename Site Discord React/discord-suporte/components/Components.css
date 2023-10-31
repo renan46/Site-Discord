@@ -1,0 +1,66 @@
+.Cabecalho {
+    display: flexbox;
+    flex-flow: column;
+    width: auto;
+    height: auto;
+    padding-right: 20;
+    padding-left: 20;
+    margin-bottom: 100px;
+}
+
+.Cabecalho>p {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 0;
+}
+
+.Cabecalho>h1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.Cards {
+    background-color: white;
+    background-position: center;
+    width: 280px;
+    height: 330px;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(175, 175, 175);
+}
+
+.Cards>p {
+    font-size: 16px;
+}
+
+img {
+    position: relative;
+    width: 50%;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0067e0;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    line-height: 1.2;
+}
+
+hr {
+    align-items: center;
+    width: 50px;
+    color: rgb(175, 175, 175);
+}
+
+* {
+    text-decoration: none;
+    text-align: center;
+    font-family: "gg_sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
